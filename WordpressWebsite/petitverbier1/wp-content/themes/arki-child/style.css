@@ -1,0 +1,18 @@
+/*
+ Theme Name:   Arki Child
+ Theme URI:    http://demo.goodlayers.com/arki
+ Description:  Goodlayers Arki Child Theme
+ Author:       Goodlayers
+ Author URI:   http://goodlayers.com
+ Template:     arki
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, right-sidebar, responsive-layout
+ Text Domain:  arki
+
+ START YOUR CHILD THEME CSS HERE
+*/
+div#logo_section {
+    display: none;
+}
