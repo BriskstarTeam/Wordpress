@@ -1,0 +1,255 @@
+/*******************MEDIA QUERIES****************/
+
+@media screen and (min-width:1600px) {
+
+.logo_icon {  position: absolute; left: 49.2%; }
+.custom-ul li { font-size:16px; margin:10px 0; }
+.custom-ul .list-title { font-size: 20px; }
+.photogallery-slider .slick-slide img { height: 350px; }
+
+}
+
+@media screen and (max-width:1359px) {
+
+.navbar-light .navbar-nav .nav-link { font-size:14px; }
+header .nav-link { margin-right: 9px; margin-left: 9px; }
+
+/*pdp box*/
+.pdp_detail_box { margin:0 10px; }
+
+/*contact*/
+.teamMember_box .team_img { width: 150px;  height: 140px; }
+.teamMember_box .team_img img {  width: 150px;  height: 140px; }
+.teamMember_box .team_content h4 { font-size:16px; }
+.teamMember_box .team_content p.agent_designation { font-size: 14px; }
+
+}
+
+@media screen and (max-width:1024px){
+.logo_icon { top: 1.6%;}
+.navbar.fixed-menu {  padding: 15px;  }
+
+header .nav-link { margin-right: 9px; margin-left: 9px; }
+
+.slider-contact .slick-arrow.slick-prev { left: -30px; background-size: 60%; }
+.slider-contact .slick-arrow.slick-next { right: -30px; background-size: 60%; }
+
+
+
+}
+
+@media (min-width: 992px) and (max-width: 1021px) {
+header .nav-link { margin-right:0; margin-left: 11px; }
+
+}
+
+@media screen and (max-width:991px){
+header{ display: -webkit-box; }
+.logo_display{ display: flex; }
+.logo_icon{ display: none; }
+#navbar_btn{ display: block; }
+#my-nav1{  display: none; }
+.logo { margin: 30px 15px;  margin-right: auto;}
+header{ display: -webkit-box; }
+.my-tog-btn{ display: -ms-inline-grid; display: inline-grid; width: 35px; height: auto; margin-left: 0; padding-top: 30px; margin-right: 15px; margin-top: 4px; }
+.navbar-nav {  background: white; }
+header .nav-link { margin-right: 0;  margin-left: 0; }
+header { position: fixed; top: 0; left: 0; right: 0; z-index: 9999; background-color: #FFF; }
+.amenities-imgbox { position:relative; margin-top:0px;}
+
+/*footer*/
+li.footer_list {  font-size:14px; }
+
+/*pdp box*/
+.pdp_details_mainbox ul li { width: 33.33%; }
+
+/*available*/
+.available-space-table  { margin-top:20px; }
+
+/*tenants*/
+.current-tenants .tenant-box  { margin-bottom:15px; }
+
+/*contact*/
+.teamMember_box .team_img { width: 150px;  height: 140px; }
+.teamMember_box .team_img img {  width: 150px;  height: 140px; }
+
+/*map*/
+.zoom-control { width:100%; left:0; }
+
+/*suite*/
+.innerpage-banner .innerbanner-box .view-btn { height: 100px; width: 100px; line-height: 100px; }
+.innerpage-banner .innerbanner-box .view-btn img { width: 60px; }
+.floorplan-img { margin-bottom: 30px; }
+
+/*banner*/
+.banner-text { left:unset; }
+.innerpage-banner { height: 400px; position: relative; }
+.innerpage-banner figure{ height: 100% !important; }
+.view-btn { height: 100px; width: 100px;line-height: 100px;}
+.view-btn img { width: 50%; }
+
+
+
+/*03-06*/
+.inner-window { bottom: auto; }
+.outer-window .navbar-nav { padding-bottom: 25px; }
+.outer-window .nav-item a { text-align: center; padding: 10px;  font-size: 16px;}
+.outer-window .navbar-nav {  margin-top: 0; }
+
+
+.amenities-contentbox .list-title{ margin-top: 0px; display: inline-block;  width: 100%; margin-bottom: 0; }
+.amenities-contentbox { margin-bottom: 30px; }
+
+.slider-contact  { padding-bottom: 30px; }
+.slider-contact  .slick-arrow.slick-prev { width: 50px; height: 50px; font-size: 0px; }
+.slider-contact  .slick-arrow.slick-next { width: 50px; height: 50px; font-size: 0px; }
+.slider-contact .slick-arrow.slick-prev { left: -15px; background-size: 100%; }
+.slider-contact .slick-arrow.slick-next { right: -15px; background-size: 100%; }
+
+
+.innerpage-banner {  margin-top: 92px; }
+
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+	
+.section-padding { padding:30px 0; }
+p{ font-size:14px; color:#000000; line-height:24px; margin-bottom:0; }
+.section-title { font-size:20px; margin-bottom:30px; }	
+	
+.my-tog-btn{  display: -ms-inline-grid; display: inline-grid; width: 25px; height: auto; margin-left: 0;  margin-right: 15px; margin-top: 0px; padding-top:27px; }
+.logo { text-align: left; margin-right: auto; margin-top: 22px; margin-left: 10px; margin-bottom: 22px; } 
+.menu-icon{ padding-left: 2rem; }
+.logo_icon{  display: none; }
+#navbar_btn{  display: block; }
+#my-nav1{  display: none; }
+.navbar-nav { background: white; margin-top: 32px; }
+
+.scroll-top-arrow { bottom: 15px; right: 20px; }
+
+
+/*footer*/
+.wrapper { min-height: 100%; margin-bottom: -280px; } 
+#footer { height:280px; }
+.footer-logo { margin-bottom: 0px; width:50%;  }
+.footer-topbar { padding: 40px 0; }
+li.footer_list { padding-top: 13px; }
+li.footer_list { margin-right: 0; font-size: 13px; }
+.footer_icon ul { padding-left: 0; }
+.footer_icon ul li { margin: 20px; }
+
+
+/*Banner*/
+.banner-text h1 { font-size: 32px; }
+.banner-text p { font-size: 16px; margin-bottom: 0; width: 100%; line-height: 20px;}
+.banner-text { left:unset; }
+
+.innerpage-banner { height: 350px; }
+.innerpage-banner figure{ height: 100% !important; }
+.view-btn { height: 100px; width: 100px;line-height: 100px;}
+.view-btn img { width: 50%; }
+
+
+/*pdp box*/
+.pdp_detail_box { padding: 8px; margin: 0 5px; }
+.pdp_detail_box img { height: 25px; margin-bottom: 5px; }
+.pdp_detail_box h3 {  font-size:14px; margin:0; }
+.pdp_detail_box:hover { transform: none; }
+
+/*available*/
+.available-space-table thead th { line-height:22px; font-weight:600; font-size:14px; padding: 7px; }
+.available-space-table  { margin-top:20px; }
+.table-fixed tbody { margin: 45px 0 15px 0; }
+
+/*tenants*/
+.current-tenants .tenant-box  { margin-bottom:15px; }
+
+/*contact*/
+.teamMember_box .team_img { width: 150px;  height: 140px; }
+.teamMember_box .team_img img {  width: 150px;  height: 140px; }
+.teamMember_box { margin-top: 0; margin-bottom: 30px; }
+
+
+/*amenities*/
+.custom-ul.building-amenities-ul li { width: 100%; }
+.amenities-imgbox { margin-top:30px; }
+.amenities .section-title { margin-bottom: 0; }
+.walkable-amenities {  width: 100%; margin-bottom: 15px; }
+
+/*map*/
+#map-categories ul li { line-height:30px; }
+.zoom-control { width:100%; left:0; height:150px; z-index: 0;}
+.zoom-control .zoom-slider-container  { position: relative; right: 0; height: 0; top: 0; left: 0; }
+.zoom-control .button.get-directions { position:relative; top: 50px; right:0; }
+.zoom-control .button.street-view { right: 9px; top: 0; position: relative; left: auto; width: 100%; text-align: right; }
+#location .location-icon { right: auto; top: 246px; left: 0; } 
+
+/*Photogallery*/
+.inner-page .photogallery .section-title::after, .inner-page .photogallery .section-title::before { display: none; }
+.inner-page .photogallery  { padding-top:90px; }
+.demo-gallery > ul { padding:0; }
+
+/*suite*/
+.innerpage-banner .innerbanner-box .view-btn { height: 60px; width: 60px; line-height:60px; }
+.innerpage-banner .innerbanner-box .view-btn img { width:40px; }
+.floorplan-img { margin-bottom: 30px; }
+.position-relative #feature-slider .slick-slide { height:300px; }
+.position-relative .gallary-icon p { display:none; }
+.position-relative .location-icon p { display:none; }
+.position-relative .location-icon { bottom: 20px; right: 10px; }
+.position-relative .gallary-icon { bottom: 20px; right: 90px; }
+.featured-option { display:block; }
+.featured-option .primary-btn { width: 100%; margin-bottom:15px; }
+
+
+/*03-06*/
+.banner-section { height: 420px; }
+.innerpage-banner {  margin-top: 76px; }
+
+/*03-06*/
+.banner-section { height: 420px; }
+.inner-window { bottom: auto; }
+.outer-window .navbar-nav { padding-bottom: 25px; }
+.outer-window .nav-item a { text-align: center; padding: 10px;  font-size: 16px;}
+
+
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th { font-size: 14px; }
+.position-relative .streetview-icon { bottom: 20px; right: 170px; }
+.position-relative .streetview-icon p { display: none;  }
+
+.slider-contact .slick-slide {   margin: 0;  overflow: hidden; }
+.modal-header .close { padding: 0; }
+
+
+.slider-contact .slick-arrow.slick-next { top: auto; right: 0%;  bottom: -35px; }
+.slider-contact .slick-arrow.slick-prev { left: auto; top: auto; right: 15%;  bottom: -35px; }
+.amenities-contentbox { margin-bottom: 10px; }
+.teamMember_box .team_content h4 { font-size: 15px; text-overflow: ellipsis; white-space: nowrap; width: 100%; overflow: hidden; line-height: inherit; }
+#map-container {     height: 450px; }
+
+
+}
+
+@media screen and (max-width:330px){
+
+.wrapper { min-height: 100%; margin-bottom: -303px; } 
+#footer { height:303px; }
+
+}
+
+@media (max-width: 767px){
+.pdp_banner_youtube { height: 350px; }
+}
+
+
+
+
+
+
+
+
+
