@@ -1,0 +1,79 @@
+@charset 'utf-8';
+/*
+ Theme Name:   Happy Baby Child Theme
+ Theme URI:    http://happy-baby.themerex.net/
+ Description:  Happy Baby Child Theme
+ Author:       ThemeREX
+ Author URI:   https://themerex.net/
+ Template:     happy-baby
+ Version:      1.0
+ Tags:         light, inheritable theme options
+ Text Domain:  happy-baby
+*/
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+.color_style_link2.sc_title_extra .sc_item_subtitle {
+    background-image: url(/wp-content/uploads/2022/04/title_bg_2.png);
+    color: #fff!important;
+}
+
+#babysitting path.color_2 {
+    fill: #9c83ad;
+}
+#babysitting path.color_1{
+	fill: #8d5ead;
+}
+#price_babysitting_plans .sc_price_item.sc_price_item_default {
+    min-height: 200px;
+}
+#our_friends h2.sc_item_title,#price_babysitting_plans h2.sc_item_title{
+	color:#fff;
+}
+img.logo_image {
+    max-height: 90px;
+}
+
+#contact-form .wpcf7-response-output,#contact-form span.wpcf7-not-valid-tip {
+    color: #ffffff;
+}
+.our_staff_section .scheme_dark .post_featured .mask {
+    background: none;
+}
+
+.our_staff_section .post_featured.hover_icon .icons, .post_featured.hover_icons .icons {
+    display: none;
+}
+
+.our_staff_section .sc_team_item_title a {
+    pointer-events: none;
+}
+.single-cpt_services span.service_value {
+    color: #9d7ab7;
+}
+.sc_testimonials_item_content {
+    min-height: 200px;
+}
+form.wpcf7-form .contact_us .sc_form_field_button {
+     text-align: left; 
+}
+.wpcf7 .inq_form textarea{
+	margin-bottom:1.4em;
+}
+.scheme_default .mfp-image-holder .mfp-close, .scheme_default .mfp-iframe-holder .mfp-close, .scheme_default .mfp-close-btn-in .mfp-close {
+    color: #fff;
+    background-color: #9d7ab7 !important;
+    opacity: 1;
+}
+.wpcf7-form .select_container .service_selection {
+    padding: 1.4em 1.4em 0em;
+}
+.inq_form .start_end_col{
+	display:none;
+}
+.wpcf7 .wpcf7 textarea,.wpcf7 .inq_form input:not([type="submit"]):not([type="radio"]):not([type="checkbox"]) {
+    margin-bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+}

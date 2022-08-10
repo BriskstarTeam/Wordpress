@@ -1,0 +1,57 @@
+Version 1.2.3
+    Added:
+        - WP 5.8 compatibility
+        - PHP 8 compatibility
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+Version 1.2.2
+    Added:
+        - WP 5.6 compatibility
+        - PHP 7.4 compatibility
+        - Date Time Picker Field plugin
+        - ThemeREX Updater plugin
+        - elegro Crypto Payment plugin
+
+    Fixed:
+        - Update plugins to their latest versions
+
+    Changed:
+        - Update demo data
+
+    Removed:
+        - Contact Form 7 Datepicker plugin
+
+Version 1.2.1
+    Added:
+        - Compatibility with WP 5.2
+        - Compatibility with PHP7.3
+        - Compatibility with WP GDPR Compliance
+        - Alert to Demo data installation
+        - Privacy Policy page
+
+    Fixed:
+        - Compatibility with Gutenberg
+        - Update plugins to their latest versions
+        - Improve theme styles
+        - Update scripts  libraries
+
+
+    Changed:
+        - Update default contact forms to make them GDPR-compliant
+        - Update demo data
+
+
+Version 1.2
+	Add Woo compatibility
+	"trx_addons" plugin updated (Include files with api -> woocommerce / Without ThemeREX Addons components option)
+
+Version 1.1
+	Plugins updated
+	Documentation updated
+
+Version: 1.0 (v.1.0.29)

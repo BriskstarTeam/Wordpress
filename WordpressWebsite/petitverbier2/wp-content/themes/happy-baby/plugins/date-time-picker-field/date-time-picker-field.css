@@ -1,0 +1,34 @@
+.xdsoft_datetimepicker button{
+    background-color: transparent!important;
+    transform: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_label>.xdsoft_select>div>.xdsoft_option.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box>div>div.xdsoft_current {
+    box-shadow: none;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td>div {
+    padding-right: 0;
+    text-align: center;
+}
+
+.xdsoft_datetimepicker .xdsoft_calendar tr + tr{
+    border-top: 1px solid #ddd;
+}
+.xdsoft_time_box,
+.xdsoft_datetimepicker .xdsoft_calendar td,
+.xdsoft_datetimepicker .xdsoft_calendar th{
+    border: unset!important;
+}
+
+.xdsoft_datetimepicker .xdsoft_timepicker{
+    min-width: 59px!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td,
+.xdsoft_datetimepicker .xdsoft_calendar th{
+    border-radius: unset!important;
+}
+.xdsoft_datetimepicker{
+    border-radius: 15px;
+}

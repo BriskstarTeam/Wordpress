@@ -1,0 +1,89 @@
+/* MailChimp for WP styles
+----------------------------------------------------------------- */
+.mc4wp-form {
+	position:relative;
+	padding-right: 10.2em;
+    margin: 0 auto;
+    width: 53%;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"] {
+	padding: 1.67em 2em;
+	width: 100%;
+    border: none;
+	vertical-align:top;
+    -webkit-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+            box-sizing: border-box;
+    background: #0e1755;
+    color: #ffffff;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+}
+.mc4wp-form .mc4wp-form-fields input[type="email"]::-webkit-input-placeholder { color: #717baf; opacity: 1;}
+.mc4wp-form .mc4wp-form-fields input[type="email"]::-moz-placeholder          { color: #717baf; opacity: 1;}
+.mc4wp-form .mc4wp-form-fields input[type="email"]:-ms-input-placeholder      { color: #717baf; opacity: 1;}
+
+.mc4wp-form .mc4wp-form-fields input[type="submit"] {
+    max-width:10em;
+    vertical-align:top;
+    padding: 1.18em 2.3em;
+    -webkit-border-radius: 15px;
+    -ms-border-radius: 15px;
+    border-radius: 15px;
+    background: #475bbd !important;
+    position: relative;
+    z-index: 9;
+    border-color: #3a4da0 !important;
+}
+.mc4wp-form .mc4wp-form-fields .hover {
+	position: absolute;
+	z-index:1;
+	right: 0;
+	top: 0;
+	vertical-align:top;
+}
+
+
+.mc4wp-form .mc4wp-alert {
+	margin: 1.5em 0;
+	padding: 1em;
+	line-height:1.5em;
+}
+
+
+form.mc4wp-form input[name="i_agree_privacy_policy"]{
+    display: none;
+}
+
+form.mc4wp-form div.mcfwp-agree-input{
+    position: relative;
+    text-align: left;
+    line-height: 1.5em;
+}
+
+form.mc4wp-form label.mcfwp-agree-input > span {
+    display: block;
+    padding-left: 1.3em;
+}
+
+form.mc4wp-form input[type="checkbox"] + span:before{
+    top:0;
+    -webkit-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    transform: translateY(30%);
+}
+
+.mc4wp-form p{
+    text-align: left;
+}
+
+.mc4wp-form input[name="AGREE_TO_TERMS"]{
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    margin-right: 0.2em;
+}
