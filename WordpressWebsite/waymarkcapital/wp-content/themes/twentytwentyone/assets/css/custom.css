@@ -1,0 +1,459 @@
+body {
+    font-size: var(--global--font-size-base);
+    font-weight: normal;
+    color: var(--global--color-primary);
+    text-align: left;
+    background-color: #fff !important;
+}
+* { text-decoration: none; }
+.waymark-content-box {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 0;
+    border: 1px solid #D9D9D9;
+}
+.waymark-content-block {
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.waymark-content-section {
+    -ms-flex: 0 0 14.285%;
+    flex: 0 0 14.285%;
+    max-width: 14.285%;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.waymark-content-bordered-div {
+    text-align: center;
+    border-right: 1px solid #D9D9D9;
+    padding: 75px 55px;
+}
+/*.waymark-content-block:last-of-type .waymark-content-bordered-div {
+  border-right: 0;
+}*/
+
+.waymark-content-img {
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    margin: 0 auto;
+    border: 3px solid #F2C75C;
+    line-height: 93px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.waymark-content-img img { height: 45px; width: auto; }
+.waymark-content-details h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+}
+.waymark-content-details p { margin: 0; color: #5F5F5F; font-size: 18px; min-height: 54px; }
+.waymark-content-block:hover {    box-shadow: 0 0 10px rgba(249,82,72,0.50); }
+
+
+@media (max-width: 1300px){
+    .waymark-content-bordered-div { padding: 50px 35px; }
+    .waymark-content-details h3 { font-size: 20px; }
+    .waymark-content-details p { font-size: 14px; }
+}
+
+
+@media (max-width:  1024px){
+
+.waymark-content-box {
+    
+    display: flex;
+    margin-top: 30%;
+    border: 0;
+}
+.waymark-content-block {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    transition: all 0.5s;
+    font-family: 'Poppins', sans-serif;  
+}
+
+.waymark-content-bordered-div {
+    text-align: center;
+    border: 1px solid #D9D9D9;
+    padding: 75px 55px;
+}
+.waymark-content-block:first-of-type .waymark-content-bordered-div {
+  border-right: 0px solid #D9D9D9; border-bottom: 0px solid #D9D9D9;
+  }
+.waymark-content-block:last-of-type .waymark-content-bordered-div {
+  border-right: 1px solid #D9D9D9;
+}
+
+.waymark-content-img img { height: 35px; width: auto; }
+.waymark-content-details h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+.waymark-content-details p { margin: 0; color: #5F5F5F; font-size: 14px; min-height: 54px; }
+.waymark-content-block:hover {
+    box-shadow: 0 0 10px rgba(249,82,72,0.50);
+}
+.waymark-content-img {
+    height: 75px;
+    width: 75px;
+    line-height: 70px;
+    text-align: center;
+}
+}
+
+@media (max-width: 767px ){
+    .waymark-content-box {        
+        display: block;
+        margin-top: 0%;
+        margin-right: 15px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        border: 1px solid #D9D9D9;
+    }
+    .waymark-content-bordered-div {
+        text-align: center;
+        border-bottom: 1px solid #D9D9D9;
+        padding: 30px 15px;
+        border-right: 0;
+    }
+    .waymark-content-block:last-of-type .waymark-content-bordered-div {
+      border-bottom: 0;
+    }
+
+    .waymark-content-img img { height: 35px; width: auto; }
+    .waymark-content-details h3 {
+        font-size: 20px;
+        font-weight: 700;
+        color: #000;
+    }
+    .waymark-content-details p { margin: 0; color: #5F5F5F; font-size: 14px; min-height: auto; }
+    .waymark-content-block:hover {
+        box-shadow: 0 0 10px rgba(249,82,72,0.50);
+        
+    }
+    .waymark-content-img {
+        height: 75px;
+        width: 75px;
+        line-height: 70px;
+        text-align: center;   
+    }
+}
+
+
+/* The Modal (background) */
+/*p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.5px;
+    color: #484848;
+}
+ 
+/* Popup Open button */ 
+.open-button{
+    color:#FFF;
+    background:#0066CC;
+    padding:10px;
+    text-decoration:none;
+    border:1px solid #0157ad;
+    border-radius:3px;
+}
+ 
+.open-button:hover{
+    background:#01478e;
+}
+ 
+.popup {
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    width:100%;
+    height:100%;
+    display:none;
+}
+
+/* Popup inner div */
+.popup-content {
+    width: 500px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 2px 6px rgba(0,0,0,1);
+    border-radius: 3px;
+    background: #fff;
+    position: relative;
+}
+ 
+/* Popup close button */
+.close-button {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.8);
+    font-size: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration:none;
+}
+ 
+.close-button:hover {
+    background: rgba(0,0,0,1);
+}
+
+ul.recent-news {
+    list-style-type: circle !important;
+    margin-left: 20px !important;
+    margin-bottom: 60px !important;
+}
+ ul.recent-news, li {
+    margin-top: 12px !important;
+    font-size: 16px !important;
+    margin-left: 30px !important;
+}
+
+@media screen and (max-width: 720px) {
+.popup-content {
+    width:90%;
+    } 
+}
+.dataminr {
+    margin-top: 0 !important;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.description h4.title {
+  margin-top: 20px;
+}
+
+.invest-btn {
+  margin-top: 25px;
+}
+span.button_remaining {
+    border: 1px solid #040404;
+    border-radius: 15px;
+    background: #282690;
+    max-height: 250px;
+    height: 200px !important;
+    width: 100%;
+    padding: 20px 0px 50px 30px;
+}
+span.remaining {
+    color: #fff;
+    margin-right: 40px;
+    padding-left: 100px;
+    font-size: 19px;
+}
+span.button_remaining {
+    border: 1px solid #040404;
+    border-radius: 15px;
+    background: #44546A;
+    max-height: 100px;
+    height: 91px !important;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-top: 10px;
+    line-height: 83px;
+    padding-left: 20px;
+}
+span.remaining {
+    color: #fff;
+    margin-right: 275px;
+    padding-left: 40px;
+}
+.invest-btn {
+    margin-top: 0;
+padding: 10px 30px;
+color: #000;
+background-color: #BECEEA;
+border-color: #BECEEA;
+}
+span.remaining {
+    color: #fff;
+    margin-right: 0;
+    padding-left: 40px;
+    font-size: 19px;
+}
+
+.navbar-brand .web-logo {
+    margin-left: 30px;
+}
+.navbar.navbar-expand-lg.navbar-light.fixed-top {
+    padding: 30px 0 60px 0;
+}
+.waymark-content-details {
+    margin-top: 20px;
+}
+
+/*.page_title {
+    margin-left: 10%;
+}*/
+
+/*header-footer*/
+#masthead { margin: 30px; padding: 0px; max-width: 100%; }
+.site-footer { margin: 0 !important; max-width: 100% !important; background-color: #000; padding: 30px !important; }
+.site-footer .site-info { padding: 0; margin: 0; border: 0 !important; }
+.no-widgets .site-footer { margin-top: 0; }
+
+/*login page*/
+.bootstrap-wrapper .box { max-width: 700px; margin: 0 auto; background: #f2c85e1c !important; border-top: 0px solid #d2d6de !important; box-shadow: 0 0px 10px rgba(0,0,0,.10) !important;
+margin-bottom: 0px !important; } 
+.bootstrap-wrapper .box-body { margin-top: 10px; }
+.bootstrap-wrapper .box .form-control { min-height: 45px; box-shadow: none; border: 0 !important; border-bottom-color: currentcolor; border-bottom-style: none; border-bottom-width: 0px;
+border-bottom: 1px solid #e7e7e7 !important; color: #111111 !important; padding: 0 15px !important; }
+.bootstrap-wrapper .box .form-control-feedback { z-index: 1; right: 0; top: 50%; transform: translateY(-50%); } 
+.bootstrap-wrapper .box .form-control-feedback.fa { color: #b7b7b7; }
+.btn-primary:hover { box-shadow: 0 0 10px rgba(249, 66, 58,0.30) !important; }
+.btn-primary { margin-right: 30px; margin-top: 15px; font-size: 17px !important; font-weight: 500 !important; color: #fff; border-radius: 3px !important; background-color: #e9b102 !important;
+padding: 10px 36px !important; margin-bottom: 10px !important; -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out;
+border: 0 !important; max-width: unset !important; display: inline-block !important; width: auto !important; }
+.bootstrap-wrapper .box .box-title { font-size: 28px !important; font-weight: 700 !important; color: #f9423a !important; }
+.bootstrap-wrapper .box .login-box-title { font-size: 22px !important; font-weight: 500 !important; color: #ee413b !important; }
+.bootstrap-wrapper .box .forgot_password { float: none !important; margin-left: 20px; font-size: 17px; color: #f9423a !important; font-weight: 600; vertical-align: top; line-height: 46px; }
+.bootstrap-wrapper .box-header.with-border { border-bottom: 1px solid #e7e7e7 !important; }
+.bootstrap-wrapper .box .sign_up { font-size: 17px; color: #333; }
+.bootstrap-wrapper .box a.text-center { font-size: 17px; color: #f9423a; }
+.box p { font-size: 17px; line-height: 22px; color: #333 !important; }
+.site-footer > .site-info { padding: 10px 0 0 0; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu::before { display: none !important; }
+.sub-menu { background-color: #fff; left: 0 !important; list-style: none; padding: 5px 0 !important; position: absolute !important; width: 220px; z-index: 10;
+margin-top: 0px !important; box-shadow: 0 1px 40px 0 rgba(0,0,0,.1); transition: all .8s; border: 0 !important; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu::after { top: -9px; border-color: var(--global--color-background) transparent; left: 15px !important; }
+.primary-navigation > div > .menu-wrapper > li > .sub-menu li { margin-top: 0 !important; }
+.has-background-white .site a:focus:not(.wp-block-button__link):not(.wp-block-file__button) { background: none !important;  color: #f9423a !important; }
+.sub-menu-toggle { display: none !important; } 
+.primary-navigation > div > .menu-wrapper li a { text-transform: uppercase; font-size: 18px; font-weight: 500; }
+.primary-navigation .sub-menu .menu-item > a { padding: 10px 15px !important; }
+#primary-menu-list li { margin-top: 0 !important; }
+
+.waymark-content-box { border: 0; }
+.waymark-content-section { flex: 0 0 25%; max-width: 25%; transition: all 0.5s; font-family: 'Poppins', sans-serif; padding: 0 7px; margin-bottom: 15px;} 
+.waymark-content-bordered-div { text-align: center; border: 1px solid #D9D9D9; padding: 75px 25px; height: 100%; }
+.waymark-content-details p { min-height: auto; }
+.waymark-content-details h3 { font-size: 20px; }
+
+.bootstrap-wrapper .box-body .alert { margin: 0 15px 15px 15px; padding: 0px 15px 5px 15px; }
+.bootstrap-wrapper .box-body .alert label { font-size: 14px; margin-bottom: 0; }
+.primary-navigation > div > .menu-wrapper li:last-child .sub-menu { left: auto !important; right: 0 !important; }
+.primary-navigation > div > .menu-wrapper li:last-child .sub-menu:after { left: auto !important; right: 15px !important; }
+
+/*news page*/
+.page_title { margin-top: -10px; margin-bottom: 30px !important; }
+.recent-news { margin-bottom: 30px !important; }
+
+.bootstrap-wrapper .tab-content > .active { display: flex !important; }
+.sailboat { margin: 0px 30px 30px 30px; }
+.sailboat_img { width: 50%;  }
+.sailboat_img .sailboat_image { height: 100%; object-fit: cover;}
+.bootstrap-wrapper .box-footer { width: 100%; bottom: 0; position: absolute; }
+.sailboat .box ul { margin-top: -45px !important; list-style: none; }
+.styled-checkbox { position: absolute; opacity: 0; display: none; }
+.styled-checkbox + label { position: relative; cursor: pointer; padding: 0; top: -30px; }
+.styled-checkbox + label:before { content: ''; margin-right: 10px; display: inline-block; vertical-align: text-top; width: 20px; height: 20px; background: #999; }
+.styled-checkbox:hover + label:before { background: #f9423a; }
+.styled-checkbox:focus + label:before { box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.12); }
+.styled-checkbox:checked + label:before { background: #f9423a; }
+.styled-checkbox:checked + label:after { content: ''; position: absolute; left: 15px; top: 13px; background: white; width: 2px; height: 2px; box-shadow: 2px 0 0 white, 4px 0 0 white, 4px -2px 0 white, 4px -4px 0 white, 4px -6px 0 white, 4px -8px 0 white; transform: rotate(45deg); }
+.sailboat .box input[type="submit"] { margin-bottom: 60px !important; }
+
+
+
+@media(max-width: 992px){
+
+.bootstrap-wrapper .tab-content > .active { display: block !important; margin: 0 15px 15px 15px; }
+.sailboat_img { width: 100%; }
+.sailboat .box input[type="submit"] { margin-bottom: 15px !important; }
+.bootstrap-wrapper .box-footer { position: unset; }
+.bootstrap-wrapper .box { max-width: unset; margin: 0; }
+
+}
+
+@media(max-width: 767px){
+
+#masthead { margin: 15px 15px 30px 15px; }
+.site-header.has-logo:not(.has-title-and-tagline).has-menu .site-logo img { height: auto !important; width: 180px !important; max-width: none; }
+.site-footer { padding: 0px 15px !important; }
+.site-footer > .site-info { padding: 0 !important; }
+.bootstrap-wrapper .tab-content > .active { display: block !important; margin: 0 15px 15px 15px; }
+.sailboat_img { width: 100%; }
+.sailboat .box input[type="submit"] { margin-bottom: 15px !important; }
+.bootstrap-wrapper .box .forgot_password { line-height: 0; display: block; margin-left: 0; margin-bottom: 25px; }
+.bootstrap-wrapper .box-footer { position: unset; }
+
+}
+
+
+
+.container_checkbox input:checked ~ .checkmark {
+    background-color: #ee4173 !important;
+}
+.checkmark{
+    background-color: #ee4173 !important;
+    border-radius: 0 !important;
+}
+.container_checkbox .checkmark:after {
+    left: 10px;
+    top: 6px;
+}
+
+.container_checkbox:hover input ~ .checkmark {
+    background-color: #ee4173 !important;
+}
+.navbar-nav{
+    display: block !important;
+}
+h6.pass_protection{
+  margin-left: 15px;  
+}
+header.entry-header.alignwide {
+    display: none;
+}
+
+
+
+/*---contact page------*/
+
+.waymark_contact p label { margin-bottom: 0 !important; font-size: 17px; color: #222; font-weight: 600; }
+.waymark_contact input[type="text"], .waymark_contact input[type="email"] { border: 0; border-bottom: 2px solid #ccc; margin-bottom: 20px; height: 30px; width: 100%;
+padding-left: 0; font-size: 14px; }
+.waymark_contact textarea{ font-size: 14px; border: 2px solid #ccc; margin-bottom: 20px; height: 200px; width: 100%; margin-top: 15px; }
+.waymark_contact input:focus, .waymark_contact textarea:focus { border-color: #F2C75C; outline: none; }
+.waymark_contact .btn-primary { margin: 0; width: 100% !important; text-transform: capitalize; }
+.waymark_contact .btn-primary:hover { color: #FFF !important; }
+.recaptcha_msg { font-size: 15px; margin-top: -20px !important; }
+.waymark_contact .wpcf7-response-output { color: #f9423a; margin-top: 10px !important; font-size: 16px; text-align: left; margin: 0 !important;  }
+.waymark_contact .wpcf7-not-valid-tip { margin-top: -20px; margin-bottom: 10px; font-size: 15px;}
+.wpcf7 form.sent.waymark_contact  .wpcf7-response-output { border-color: #46b450; color: #46b450; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

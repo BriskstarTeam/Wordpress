@@ -1,0 +1,197 @@
+@media(max-width:1925px) {
+}
+@media(min-width:1600px) {
+
+.banner-content h1 { width: 65%; }
+.banner-content p  { width: 55%; }
+.pre-ipo-before-after-content h3 { color: #FFF; font-size: 70px; }
+.pre-ipo-before-after-content p { color: #FFF; font-size: 30px; line-height: 40px; }
+.pre-ipo-content .pre-ipo-text { font-size: 35px; line-height: 44px; color: #191919; margin-top: 60px;  }
+.section-title { font-size: 70px; }
+.pre-ipo-list { width: 60%; }
+
+}
+@media(max-width:1445px) {
+}
+@media(max-width:1370px) {
+}
+@media(min-width:1200px) and  (max-width:1300px){
+	
+.pamphlet-section .slick-prev {  left: -45px;   top: 41%;}
+.pamphlet-section .slick-next {  left: -45px;   top: 48%;}
+.pamphlet-section .slider-vertical .slick-prev::before { height: 40px;  width: 40px; line-height:40px;} 
+.pamphlet-section .slider-vertical .slick-next::before { height: 40px;  width: 40px; line-height:40px;} 
+}
+@media(max-width:1170px) {
+
+    .hero-area .banner-img { margin-left: -15px;  }
+.hero-area { padding: 30px 15px; }
+.hero-area .banner-content h1 { font-size: 50px; padding: 0; background: none;  width: 70%; }
+.hero-area .banner-content p { font-size: 28px; line-height: 34px; color: #000; width: 80%;
+margin-bottom: 15px; }
+.hero-area .connecting-line { margin-top: -50px; }
+.thm-btn, .secndry-btn { padding: 0px 25px; }
+.connecting-line img { max-width: 50%; }
+
+.navbar { padding: 20px 35px; }
+
+.section-title { font-size: 30px; }
+
+.pre-ipo { margin-top: -40px; padding: 0 15px; }
+.pre-ipo-before-after { margin-right: -15px; }
+.pre-ipo .pre-ipo-content { padding-left: 50px; }
+
+.pre-ipo .pre-ipo-before-after-content h3 { color: #FFF; font-size: 18px; }
+.pre-ipo .pre-ipo-before-after-content p { color: #FFF; font-size: 14px; line-height: 20px; }
+.pre-ipo .pre-ipo-content .pre-ipo-text { font-size: 14px; line-height: 22px; margin-top: 0; }
+.pre-ipo .connecting-line { margin-top: 0;  margin-left: 0; }
+.pre-ipo-stocks { margin-top: 0px; padding: 0 15px ; }
+.pre-ipo-stocks .pre-ipo-before-after { margin-left: -15px; margin-right: 0; }
+.pre-ipo .pre-ipo-before-after img { position: relative; height: auto; object-fit: cover; object-position: left;}
+
+.pre-ipo-stocks .pre-ipo-list { padding: 0; }
+.pre-ipo-stocks .pre-ipo-content h2 { width: 100%; margin-top: 20px; }
+.pre-ipo-stocks .connecting-line { margin-top: 0; }
+.pre-ipo-investing { padding: 30px 0; }
+.pre-ipo-investing .investing-text { margin: 0 0 15px 0; font-size: 14px; line-height: 22px; }
+.pre-ipo-investing .connecting-line { margin-top: 0; margin-left: 0; }
+.investing-box h5 { margin-bottom: 0.5rem; }
+.our-philosophy { padding: 0 15px; }
+.who-we-are { margin-top: 20px; padding: 0 15px; }
+.who-we-are .who-we-are-content { padding-left: 0; }
+.who-we-are .who-we-are-content .who-we-are-text { font-size: 14px; line-height: 22px; color: #191919;
+margin-top: 10px; }
+.who-we-are-img { margin-right: -15px; }
+.who-we-are .connecting-line { margin-left: 30px; margin-top: -120px; }
+.footer { padding: 0 15px; }
+.footer-box img { margin-left: -15px; }
+.footer .footer-content { width: 76%; left: 15px; right: auto; transform: none; top: 90px; }
+.footer-bottom-content { text-align: right; padding-right: 0; }
+.footer-bottom-content p { font-size: 14px; text-align: right; }
+.footer .footer-content h3 { color: #FFF; font-size: 18px; }
+.footer-box img { margin-left: -15px; height: 340px; object-fit: cover; }
+.footer .footer-content p { font-size: 14px; line-height: 22px; }
+
+
+}
+@media(max-width:1024px) {
+p { font-size:14px; line-height:20px; }
+
+}
+
+@media only screen and (max-width: 992px) {
+
+.navbar .burger { display: block; opacity: 1; visibility: visible; }
+.navbar .menu { width: 100%; max-height: 0rem; padding: 0; opacity: 0; visibility: hidden; overflow: hidden;
+transition: all 0.35s ease; }
+.navbar .menu.active { opacity: 1; visibility: visible; }
+.brand-logo img{ max-width: 200px; } 
+.navbar .menu-inner { display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
+gap: 0.75rem; padding: 1rem 0; position: absolute; z-index: 1; width: 100%; background: #FFF; left: 0;
+padding: 1rem; } 
+.navbar { padding: 20px 35px; }
+
+.hero-area .banner-img { margin-left: -15px;  }
+.hero-area { padding: 30px 15px; }
+.hero-area .banner-content h1 { font-size: 40px; padding: 0; background: none;  width: 100%; }
+.hero-area .banner-content p { font-size: 22px; line-height: 30px; color: #000; width: 100%;
+margin-bottom: 15px; }
+
+.hero-area .connecting-line { margin-top: -50px; }
+.thm-btn, .secndry-btn { padding: 10px 25px 10px 25px; }
+.connecting-line img { max-width: 50%; }
+.section-title { font-size: 30px; }
+
+.pre-ipo { margin-top: -40px; padding: 0 15px; }
+.pre-ipo-before-after { margin-right: -15px; }
+.pre-ipo .pre-ipo-content { padding-left: 50px; }
+.pre-ipo .pre-ipo-before-after-content { width: 76%;  left: auto; right: 20px; transform: none; top: 70px; }
+.pre-ipo .pre-ipo-before-after-content h3 { color: #FFF; font-size: 18px; }
+.pre-ipo .pre-ipo-before-after-content p { color: #FFF; font-size: 14px; line-height: 20px; }
+.pre-ipo .pre-ipo-content .pre-ipo-text { font-size: 14px; line-height: 22px; margin-top: 0; }
+.pre-ipo .connecting-line { margin-top: 0;  margin-left: 0; }
+.pre-ipo-stocks { margin-top: 0px; padding: 0 15px ; }
+.pre-ipo-stocks .pre-ipo-before-after { margin-left: -15px; margin-right: 0; }
+.pre-ipo .pre-ipo-before-after img { position: relative; height: 430px; object-fit: cover; object-position: left;}
+
+.pre-ipo-stocks .pre-ipo-list { padding: 0; }
+.pre-ipo-stocks .pre-ipo-content h2 { width: 100%; margin-top: 20px; }
+.pre-ipo-stocks .connecting-line { margin-top: 0; }
+.pre-ipo-investing { padding: 30px 0; }
+.pre-ipo-investing .investing-text { margin: 0 0 15px 0; font-size: 14px; line-height: 22px; }
+.pre-ipo-investing .connecting-line { margin-top: 0; margin-left: 0; }
+.investing-box h5 { margin-bottom: 0.5rem; }
+.our-philosophy { padding: 0 15px; }
+.who-we-are { margin-top: 20px; padding: 0 15px; }
+.who-we-are .who-we-are-content { padding-left: 0; }
+.who-we-are .who-we-are-content .who-we-are-text { font-size: 14px; line-height: 22px; color: #191919;
+margin-top: 10px; }
+.who-we-are-img { margin-right: -15px; }
+.who-we-are .connecting-line { margin-left: 0; margin-top: 0; margin: 15px 0; }
+.footer { padding: 0 15px; }
+.footer-box img { margin-left: -15px; }
+.footer .footer-content { width: 76%; left: 15px; right: auto; transform: none; top: 90px; }
+.footer-bottom-content { text-align: right; padding-right: 0; }
+.footer-bottom-content p { font-size: 14px; text-align: right; }
+.footer .footer-content h3 { color: #FFF; font-size: 18px; }
+.footer-box img { margin-left: -15px; height: 340px; object-fit: cover; }
+.footer .footer-content p { font-size: 14px; line-height: 22px; }
+        
+}
+	
+
+@media(max-width:767px) {
+
+p { font-size:14px; line-height:22px; }
+.thm-btn, .secndry-btn { padding: 10px 30px 10px 30px; font-size:14px; }
+
+main { margin-top: 68px; }
+
+.hero-area .banner-img { margin-left: -15px; max-width: 100%; }
+.hero-area { padding: 30px 15px; }
+.hero-area .banner-content h1 { font-size: 40px; padding: 0; background: none; margin-left: 0; width: 100%; }
+.hero-area .banner-content p { font-size: 22px; line-height: 30px; color: #000; width: 100%;
+margin-bottom: 15px; }
+.hero-area .connecting-line { margin-top: 20px; }
+.connecting-line img { max-width: 70%; }
+
+.navbar {  padding: 20px 0; }
+.pre-ipo { margin-top: 0; padding: 0 15px; }
+.pre-ipo .pre-ipo-content { padding-left: 0; }
+.section-title { font-size: 24px; }
+
+.pre-ipo-before-after { margin-right: -15px; }
+.pre-ipo .pre-ipo-before-after-content { width: 76%;  left: auto; right: 10px; transform: none; top: 78px; }
+.pre-ipo .pre-ipo-before-after-content h3 { color: #FFF; font-size: 18px; }
+.pre-ipo .pre-ipo-before-after-content p { color: #FFF; font-size: 14px; line-height: 20px; }
+.pre-ipo .pre-ipo-content .pre-ipo-text { font-size: 14px; line-height: 22px; margin-top: 0; }
+.pre-ipo .connecting-line { margin-top: 0;  margin-left: 0; }
+.pre-ipo-stocks { margin-top: 0px; padding: 0 15px ; }
+.pre-ipo-stocks .pre-ipo-before-after { margin-left: -15px; margin-right: 0; }
+.pre-ipo .pre-ipo-before-after img { position: relative; height: 500px; object-fit: cover; }
+
+.pre-ipo-stocks .pre-ipo-list { padding: 0; }
+.pre-ipo-stocks .pre-ipo-content h2 { width: 100%; margin-top: 20px; }
+.pre-ipo-stocks .connecting-line { margin-top: 0; }
+.pre-ipo-investing { padding: 30px 0; }
+.pre-ipo-investing .investing-text { margin: 0 0 15px 0; font-size: 14px; line-height: 22px; }
+.pre-ipo-investing .connecting-line { margin-top: 0; margin-left: 0; }
+.investing-box h5 { margin-bottom: 0.5rem; }
+.our-philosophy { padding: 0 15px; }
+.who-we-are { margin-top: 20px; padding: 0 15px; }
+.who-we-are .who-we-are-content { padding-left: 0; }
+.who-we-are .who-we-are-content .who-we-are-text { font-size: 14px; line-height: 22px; color: #191919;
+margin-top: 10px; }
+.who-we-are-img { margin-right: -15px; }
+.who-we-are .connecting-line { margin-left: 0; margin-top: 0; margin: 15px 0; }
+.footer { padding: 0 15px; }
+.footer-box img { margin-left: -15px; }
+.footer .footer-content { width: 76%; left: 15px; right: auto; transform: none; top: 90px; }
+.footer-bottom-content { text-align: right; padding-right: 0; }
+.footer-bottom-content p { font-size: 14px; text-align: center; }
+.footer .footer-content h3 { color: #FFF; font-size: 18px; }
+.footer-box img { margin-left: -15px; height: 340px; object-fit: cover; margin-bottom: 15px; }
+.footer .footer-content p { font-size: 14px; line-height: 22px; }
+
+}
+
