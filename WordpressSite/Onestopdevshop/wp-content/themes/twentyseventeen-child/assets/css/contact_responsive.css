@@ -1,0 +1,40 @@
+@media (min-width: 1600px) {
+
+}
+
+
+@media (max-width:1024px) {
+
+}
+
+@media (max-width: 992px) { 
+	.navbar{padding:30px 0px;}
+.navbar-nav {background: #fff;}
+.navbar-light .navbar-nav .nav-link {padding: 15px 20px;}
+ .revised-estimation .form-section .form-content {
+    width: 100%;margin: 0px auto;padding: 120px 15px 0px 15px;}
+.revised-estimation .detail-section {padding: 50px 15px;}
+.list-wrapper {width: 100%;}
+.address-group { padding: 30px 15px;width: 100%;}
+.book-call {padding: 0px 15px 45px 15px;}
+}
+
+
+@media (max-width:767px) {
+.navbar{padding:30px 15px;}
+.revised-estimation .form-section .form-group {margin-bottom: 32px;}
+.list-wrapper .text-box .text-content {padding-left: 25px;margin-bottom: 20px;}
+.list-wrapper .text-box:before {width: 20px;height: 20px;top:5px;}
+.list-wrapper {width: 100%;}
+.revised-estimation .form-section h4 {font-size: 22px;margin-bottom: 20px;}
+.list-wrapper .text-box p {font-size: 16px;}
+.book-call {display: block;padding: 0px 15px 0px 15px;}
+.detail-text {padding: 50px 15px;}
+.book-call h5{margin-bottom: 10px !important;}
+.trusted-logo h6:after, .trusted-logo h6:before{width: 60px;}
+.address-box {padding-bottom: 20px;}
+
+
+}
+
+
