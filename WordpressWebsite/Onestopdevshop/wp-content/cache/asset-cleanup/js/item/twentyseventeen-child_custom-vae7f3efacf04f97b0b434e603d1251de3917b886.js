@@ -1,3 +1,0 @@
-/*!/wp-content/themes/twentyseventeen-child/assets/js/custom.js*/
-jQuery(".navbar-toggler").click(function(){jQuery("#navbarSupportedContent").slideToggle()});jQuery("ul li.glimpse_item:first-child").on("click",function(e){var arrFrames=jQuery(this).parent('iframe').children('.seek-bar');arrFrames.currentTime=122;console.log(arrFrames);console.log(arrFrames.currentTime)});jQuery(".skip-thirty").on("click",function(e){var curTime=player.currentTime;alert(curTime);currentTimeStart=curTime+30;player.currentTime=currentTimeStart;playPlayer(!1)})
-;

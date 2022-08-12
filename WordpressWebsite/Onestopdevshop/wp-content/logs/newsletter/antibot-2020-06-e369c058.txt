@@ -1,8 +1,0 @@
-02-06-2020 08:46:07 - FATAL - v: 6.6.9 - m: 4.9 MB, u: 0 - test@test.com - 103.215.159.70 - Antiflood triggered
-02-06-2020 08:46:20 - FATAL - v: 6.6.9 - m: 4.9 MB, u: 0 - test@test.com - 103.215.159.70 - Antiflood triggered
-02-06-2020 08:46:49 - FATAL - v: 6.6.9 - m: 4.9 MB, u: 0 - test@test.com - 103.215.159.70 - Antiflood triggered
-02-06-2020 10:16:21 - FATAL - v: 6.6.9 - m: 4.9 MB, u: 0 - shefali.wedowebapps@gmail.com - 42.111.115.45 - Antiflood triggered
-02-06-2020 10:27:58 - FATAL - v: 6.6.9 - m: 4.9 MB, u: 0 - shefali.wedowebapps@gmail.com - 42.111.119.221 - Antiflood triggered
-02-06-2020 11:55:23 - FATAL - v: 6.6.9 - m: 5.0 MB, u: 6 - test@test.com - 103.215.159.70 - Antiflood triggered
-02-06-2020 11:58:26 - FATAL - v: 6.6.9 - m: 5.0 MB, u: 6 - shefali.wedowebapps@gmail.com - 103.215.159.70 - Antiflood triggered
-13-06-2020 11:40:14 - FATAL - v: 6.6.9 - m: 10.7 MB, u: 0 - volkan_ceri@hotmail.com - 78.188.35.94 - Antiflood triggered
